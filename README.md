@@ -1,2 +1,2 @@
-# amazon
-MyParcel manual for the Amazon extension
+# Amazon
+Voor de handleiding ga naar https://myparcelnl.github.io/amazon/
