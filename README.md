@@ -1,3 +1,2 @@
-# API
-The API for MyParcel
-https://myparcelnl.github.io/api/
+# Amazon
+Voor de handleiding ga naar https://myparcelnl.github.io/amazon/
