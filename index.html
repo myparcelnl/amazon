@@ -42,36 +42,58 @@
                 <h2 id="1_A">1.1 Nieuwe installatie</h2>
                 <p>
                     In de koppeling tussen Amazon en MyParcel zijn de <b>SellerID</b> en <b>MWS Authorization</b> van jouw Amazon-account nodig. Om deze te verkrijgen,
-                    log je in via <a href="https://sellercentral.amazon.de/"><u>https://sellercentral.amazon.de/</u></a>.<br><br> In het dashboard kun je bovenaan de pagina verschillende verkooplanden selecteren. Selecteer hier bijvoorbeeld Amazon.de (Spanje, Italie, Verenigde Koninkrijk en Frankrijk worden ook geaccepteerd).<br><br>
+                    log je in via <a href="https://sellercentral.amazon.nl/"><u>https://sellercentral.amazon.nl/</u></a>.<br><br> 
+                    
+                    In het dashboard kun je bovenaan de pagina verschillende verkooplanden selecteren. 
+                    Selecteer hier bijvoorbeeld Amazon.de (Spanje, Italie, Verenigde Koninkrijk en Frankrijk worden ook geaccepteerd).<br><br>
 
-                    Ga vervolgens naar <span class=nice>'Apps & Services' > 'Manage your apps' > 'Authorise new developer' </span> en vul <b>MyParcel</b>' in bij 'Developer's Name' en <b>777787439427</b> bij 'Developer's ID'.<br><br>
+                    Ga vervolgens naar 'Appstore' > 'Je apps beheren' > 'Nieuwe ontwikkelaar autoriseren' en vul <b>MyParcel</b> in bij 
+                    'Ontwikkelaar naam' en <b>777787439427</b> bij 'Ontwikkelaar ID'.<br><br>
 
                     <img alt="Amazon country switch" src='media/Amazon_Authoriza_Developer.png'><br><br>
 
-
-                    Na het accepteren van de voorwaarden, worden de 'sellerID' en 'MWS authorization' getoond. Kopieer de codes en vul deze in een de gelijknamige velden van de Amazon-integratie. Deze zijn in het MyParcel systeem te vinden via <span class=nice>'Support' > 'Integratie' > 'Externe koppelingen' > 'Amazon'.
+                    Na het accepteren van de voorwaarden, worden de 'SellerID' en 'MWS authorization' getoond. 
+                    Kopieer de codes en vul deze in een de gelijknamige velden van de Amazon-integratie. 
+                    Deze zijn in het MyParcel systeem te vinden via <img src="media/myparcel_account_icoon.png" height="25px"> > 
+                    <span class=nice>Accountinstellingen</span> > <span class=nice>Integratie</span> > <span class=nice>Externe koppelingen</span> > <span class=nice>Amazon</span>.
                 </p>
                 <h2 id="1_B">1.2 Updaten bestaande installatie</h2>
                 <p>
-                    Wanneer er een nieuwe versie van de Amazon-koppeling live wordt gezet, hoef je je als gebruiker geen zorgen te maken over het installeren van een nieuwe versie. Deze wordt automatisch geüpdatet, waardoor je altijd de meest recente versie gebruikt.
+                    Wanneer er een nieuwe versie van de Amazon-koppeling live wordt gezet, hoef je je als gebruiker geen zorgen te maken over het installeren van een nieuwe versie. 
+                    Deze wordt automatisch geüpdatet, waardoor je altijd de meest recente versie gebruikt.
                 </p>
-                <h1 id="2">2. Configuratie</h1>
-                <h2 id="2_A">2.1 Instellen standaard verzendmethode</h2>
+                <h1 id="2">2. Gebruik koppeling</h1>
+                <h2 id="2_A">2.1 Een orderbestand maken in Amazon</h2>
                 <p>
-                    Bij het importeren van de Amazon-orders zal de standaard pakketvoorkeuren uit jouw MyParcel-account overnemen. Klik rechts bovenin jouw MyParcel-account op het <img height="18" alt="MyParcel account" src="media/MyParcel_Account_Icon.png">-icoon, selecteer de gewenste webshop onder 'Shopinstellingen' en ga vervolgens naar <span class=nice>Zendingen > Pakketvoorkeuren</span>.
+                    Om Amazon orders te importeren moet je een bestellingsoverzicht downloaden vanuit <u>Amazon Seller Central</u>. 
+                    Ga hiervoor naar <span class='nice'>Bestellingen > Besteloverzichten > Niet-verzonden bestellingen</span>.
+                    Bij overzichten aanvragen klik je op <img height="25px" alt="" src="media/amazon_aanvraag.png">. 
+                    Het kan maximaal een kwartier duren voordat in de tabel ‘Overzicht downloaden’ het laatste besteloverzicht te zien is, vaak gaat dit sneller. 
+                    Door op vernieuwen te drukken kun je zien of het nieuwste besteloverzicht inmiddels beschikbaar is. 
+                    Download het nieuwste bestand in het overzicht.
                 </p>
-                <h1 id="3">3. Gebruik plugin</h1>
-                <h2 id="3_A">3.1 Importeren van orders</h2>
+                <h2 id="2_B">2.2 Importeren van orders</h2>
                 <p>
-                    Om de orders van Amazon te importeren, klik je in het zendingenoverzicht op <img height="25" alt="MyParcel account" src="media/MyParcel_Import_Orders.png">. Vervolgens zal een popup worden getoond waarin je tussen de verschillende actieve integraties kunt schakelen. Selecteer 'Amazon' om jouw open Amazon-orders in te zien en deze te importeren.
+                    Om je orders van Amazon te importeren, klik je in het zendingenoverzicht op <img alt="" height="25px" src="media/MyParcel_Import_Orders.png"> en dan 
+                    op <span class=nice>Upload Amazon orders</span>. Selecteer je meest recente Amazon besteloverzicht. De orders zullen ingeladen worden. 
+                    Nadat je op <img height="25px" alt="" src="media/MyParcel_Import_SelectedOrders.png"> hebt geklikt zullen de orders als concepten in je zendingenoverzicht komen te staan.<br><br>
 
-                <img height="100" alt="MyParcel import popup" src="media/MyParcel_Import_Popup.png">
+                    Je zendingen worden geïmporteerd als standaardzending. Welk pakkettype een standaardzending heeft, kun je instellen in je backoffice bij <img src="media/myparcel_account_icoon.png" height="25px"> > <span class=nice>Accountinstellingen</span> > 
+                    <span class=nice>Zendingen</span>.
 
                 </p>
-                <h2 id="3_E">2.5 Veelgestelde vragen over het gebruik van de plugin</h2>
+                <h2 id="2_E">2.3 Veelgestelde vragen over het gebruik van de plugin</h2>
                 <p>
                 <h3>Worden de barcodes teruggekoppeld naar Amazon?</h3>
-                   <i>Nee, in de huidige versie van de integratie zullen de barcodes nog niet naar Amazon worden teruggekoppeld.</i>
+                   <i>Ja, de barcodes zullen teruggekoppeld worden aan Amazon en de bestelling zal de status verzonden krijgen zodra het label geprint is.</i>
+                </p>
+                <p>
+                <h3>Kan ik ook een ander besteloverzicht gebruiken om Amazon orders te importeren?</h3>
+                    <i>Nee, je moet het besteloverzicht <u>‘Niet-verzonden bestellingen’</u> van Amazon gebruiken. Andere bestanden kunnen niet gebruikt worden.</i>
+                </p>
+                <p>
+                <h3>Kan ik ook wereldzendingen importeren met de Amazon koppeling?</h3>
+                    <i>Ja maar het douaneformulier wordt niet volledig gevuld en zal dus handmatig aangepast en aangevuld moeten worden.</i>
                 </p>
                 <footer class="site-footer">
                     <p>
@@ -79,7 +101,7 @@
                     </p>
                     <p>
                         <span class="site-footer-credits">
-                            <strong>Adres </strong>Siriusdreef 66-68, 2132 WT Hoofddorp<br />
+                            <strong>Adres </strong>Antareslaan 31, 2132 JE Hoofddorp<br />
                             <strong>Telefoon </strong>023 30 30 315&nbsp;
                             <strong>E-mail</strong> &nbsp;info@myparcel.nl<br />
                             <strong>Website </strong><a href="https://www.myparcel.nl">www.myparcel.nl</a>&nbsp;
