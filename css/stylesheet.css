@@ -236,7 +236,9 @@ h1 {
 }
 
 .main-content p {
+    text-align: justify;
     margin-bottom: 1em;
+    margin-top: 1px;
 }
 
 .main-content code {
